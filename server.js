@@ -3,7 +3,7 @@ const apiRoutes = require('./Develop/routes/apiRoutes');
 const htmlRoutes = require('./Develop/routes/htmlRoutes');
 
 // Creating port and starting server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.use(express.json());
